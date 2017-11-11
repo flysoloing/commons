@@ -19,6 +19,40 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+        </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.flysoloing.plugins</groupId>
+                <artifactId>ghrepo-maven-plugin</artifactId>
+                <configuration>
+                    <!-- ghrepo:sync conf -->
+                    <enable>true</enable>
+                    <localGhRepoLibsPath>D:\DevEnv\repo\libs</localGhRepoLibsPath>
+                    <localGhRepoPluginsPath>D:\DevEnv\repo\plugins</localGhRepoPluginsPath>
+                    <!-- ghrepo:help conf -->
+                    <detail>true</detail>
+                    <goal>help</goal>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>flush</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>sync</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

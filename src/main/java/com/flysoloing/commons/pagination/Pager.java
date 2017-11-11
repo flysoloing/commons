@@ -1,0 +1,217 @@
+package com.flysoloing.commons.pagination;
+
+/**
+ * 分页结果类
+ *
+ * @author laitao
+ * @since 2014-11-21 16:50:00
+ */
+public class Pager {
+
+    /**
+     * 总记录条数
+     */
+    private int totalRecord;
+    /**
+     * 每页记录数
+     */
+    private int pageSize;
+    /**
+     * 当前页码
+     */
+    private int currentIndex;
+    /**
+     * 页面偏移量，例如：为2时，当前页面的前2和后2都显示
+     */
+    private int indexOffset;
+    /**
+     * 总页数
+     */
+    private int totalPage;
+    /**
+     * 是否展示上一页
+     */
+    private boolean isPrevious;
+    /**
+     * 是否展示下一页
+     */
+    private boolean isNext;
+    /**
+     * 上一页码
+     */
+    private int previousIndex;
+    /**
+     * 下一页码
+     */
+    private int nextIndex;
+    /**
+     * 是否展示第一页页码
+     */
+    private boolean isFirst;
+    /**
+     * 是否展示最后页页码
+     */
+    private boolean isLast;
+    /**
+     * 第一页页码
+     */
+    private int firstIndex;
+    /**
+     * 最后页页码
+     */
+    private int lastIndex;
+    /**
+     * 是否展示前缩略号
+     */
+    private boolean isPreviousAbbr;
+    /**
+     * 是否展示后缩略号
+     */
+    private boolean isNextAbbr;
+    /**
+     * 中间起始页码
+     */
+    private int fromIndex;
+    /**
+     * 中间结束页码
+     */
+    private int toIndex;
+
+    public Pager(){}
+
+    public int getTotalRecord() {
+        return totalRecord;
+    }
+
+    public void setTotalRecord(int totalRecord) {
+        this.totalRecord = totalRecord;
+    }
+
+    public int getPageSize() {
+        return pageSize;
+    }
+
+    public void setPageSize(int pageSize) {
+        this.pageSize = pageSize;
+    }
+
+    public int getCurrentIndex() {
+        return currentIndex;
+    }
+
+    public void setCurrentIndex(int currentIndex) {
+        this.currentIndex = currentIndex;
+    }
+
+    public int getIndexOffset() {
+        return indexOffset;
+    }
+
+    public void setIndexOffset(int indexOffset) {
+        this.indexOffset = indexOffset;
+    }
+
+    public int getTotalPage() {
+        return totalPage;
+    }
+
+    public void setTotalPage(int totalPage) {
+        this.totalPage = totalPage;
+    }
+
+    public boolean isPrevious() {
+        return isPrevious;
+    }
+
+    public void setPrevious(boolean isPrevious) {
+        this.isPrevious = isPrevious;
+    }
+
+    public boolean isNext() {
+        return isNext;
+    }
+
+    public void setNext(boolean isNext) {
+        this.isNext = isNext;
+    }
+
+    public int getPreviousIndex() {
+        return previousIndex;
+    }
+
+    public void setPreviousIndex(int previousIndex) {
+        this.previousIndex = previousIndex;
+    }
+
+    public int getNextIndex() {
+        return nextIndex;
+    }
+
+    public void setNextIndex(int nextIndex) {
+        this.nextIndex = nextIndex;
+    }
+
+    public boolean isFirst() {
+        return isFirst;
+    }
+
+    public void setFirst(boolean isFirst) {
+        this.isFirst = isFirst;
+    }
+
+    public boolean isLast() {
+        return isLast;
+    }
+
+    public void setLast(boolean isLast) {
+        this.isLast = isLast;
+    }
+
+    public int getFirstIndex() {
+        return firstIndex;
+    }
+
+    public void setFirstIndex(int firstIndex) {
+        this.firstIndex = firstIndex;
+    }
+
+    public int getLastIndex() {
+        return lastIndex;
+    }
+
+    public void setLastIndex(int lastIndex) {
+        this.lastIndex = lastIndex;
+    }
+
+    public boolean isPreviousAbbr() {
+        return isPreviousAbbr;
+    }
+
+    public void setPreviousAbbr(boolean isPreviousAbbr) {
+        this.isPreviousAbbr = isPreviousAbbr;
+    }
+
+    public boolean isNextAbbr() {
+        return isNextAbbr;
+    }
+
+    public void setNextAbbr(boolean isNextAbbr) {
+        this.isNextAbbr = isNextAbbr;
+    }
+
+    public int getFromIndex() {
+        return fromIndex;
+    }
+
+    public void setFromIndex(int fromIndex) {
+        this.fromIndex = fromIndex;
+    }
+
+    public int getToIndex() {
+        return toIndex;
+    }
+
+    public void setToIndex(int toIndex) {
+        this.toIndex = toIndex;
+    }
+}
