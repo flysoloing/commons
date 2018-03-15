@@ -5,12 +5,12 @@
     <parent>
         <groupId>com.flysoloing</groupId>
         <artifactId>code-parent</artifactId>
-        <version>1.0.0</version>
+        <version>1.0</version>
     </parent>
     <groupId>com.flysoloing</groupId>
     <artifactId>commons</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.0</version>
+    <version>1.0</version>
     <name>commons</name>
     <url>https://github.com/flysoloing/commons</url>
 
