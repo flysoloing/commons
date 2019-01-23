@@ -6,7 +6,7 @@ import java.io.Serializable;
  * 分页条件类
  *
  * @author laitao
- * @since 2015-03-18 15:45:00
+ * @date 2015-03-18 15:45:00
  */
 public class Pagination implements Serializable {
 

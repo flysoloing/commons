@@ -6,7 +6,7 @@ import java.io.Serializable;
  * 返回结果抽象类
  *
  * @author laitao
- * @since 2015-03-18 14:48:00
+ * @date 2015-03-18 14:48:00
  */
 public abstract class AbstractResult implements Serializable{
 

@@ -8,7 +8,7 @@ import java.io.Serializable;
  * 带分页的返回结果类
  *
  * @author laitao
- * @since 2015-03-18 15:53:00
+ * @date 2015-03-18 15:53:00
  */
 public class PaginationResult<T> extends ListResult<T> {
 

@@ -7,7 +7,7 @@ import java.util.Map;
  * Map类型返回结果类
  *
  * @author laitao
- * @since 2015-03-18 15:03:00
+ * @date 2015-03-18 15:03:00
  */
 public class MapResult<K, V> extends AbstractResult {
 

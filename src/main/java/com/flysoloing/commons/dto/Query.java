@@ -6,7 +6,7 @@ import java.io.Serializable;
  * 通用查询类
  *
  * @author laitao
- * @since 2015-03-18 15:57:00
+ * @date 2015-03-18 15:57:00
  */
 public class Query<T> implements Serializable {
 

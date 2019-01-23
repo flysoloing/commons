@@ -6,7 +6,7 @@ import org.apache.commons.codec.digest.DigestUtils;
  * 安全哈希算法工具类
  *
  * @author laitao
- * @since 2014-05-03 23:21:00
+ * @date 2014-05-03 23:21:00
  */
 public class ShaUtils {
 

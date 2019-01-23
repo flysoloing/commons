@@ -6,7 +6,7 @@ import java.io.Serializable;
  * 通用返回结果类
  *
  * @author laitao
- * @since 2015-03-18 14:54:00
+ * @date 2015-03-18 14:54:00
  */
 public class GenericResult<T> extends AbstractResult {
 

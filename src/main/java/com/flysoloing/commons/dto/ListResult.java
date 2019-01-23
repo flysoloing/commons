@@ -7,7 +7,7 @@ import java.util.List;
  * List类型返回结果类
  *
  * @author laitao
- * @since 2015-03-18 14:56:00
+ * @date 2015-03-18 14:56:00
  */
 public class ListResult<E> extends AbstractResult {
 

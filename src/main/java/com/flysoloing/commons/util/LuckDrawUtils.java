@@ -9,7 +9,7 @@ import java.util.List;
  * 抽奖工具类
  *
  * @author laitao
- * @since 2015-03-24 18:57:00
+ * @date 2015-03-24 18:57:00
  */
 public class LuckDrawUtils {
 

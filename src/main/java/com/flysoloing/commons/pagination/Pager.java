@@ -4,7 +4,7 @@ package com.flysoloing.commons.pagination;
  * 分页结果类
  *
  * @author laitao
- * @since 2014-11-21 16:50:00
+ * @date 2014-11-21 16:50:00
  */
 public class Pager {
 

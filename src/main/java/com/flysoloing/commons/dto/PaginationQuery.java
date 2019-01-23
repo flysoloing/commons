@@ -8,7 +8,7 @@ import java.io.Serializable;
  * 带分页条件查询类
  *
  * @author laitao
- * @since 2015-03-18 15:59:00
+ * @date 2015-03-18 15:59:00
  */
 public class PaginationQuery<T> extends Query<T> {
 

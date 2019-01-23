@@ -7,7 +7,7 @@ import com.flysoloing.commons.pagination.Pagination;
  * 分页工具类
  *
  * @author laitao
- * @since 2014-11-21 16:50:00
+ * @date 2014-11-21 16:50:00
  */
 public class PaginationUtils {
 

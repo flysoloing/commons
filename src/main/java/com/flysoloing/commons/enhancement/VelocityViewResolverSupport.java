@@ -30,7 +30,7 @@ import java.util.*;
  * velocity视图解析器辅助类
  *
  * @author laitao
- * @since 2016-07-01 14:02:20
+ * @date 2016-07-01 14:02:20
  */
 public class VelocityViewResolverSupport extends WebApplicationObjectSupport {
 

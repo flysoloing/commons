@@ -10,7 +10,7 @@ import java.nio.charset.Charset;
  * 密码工具类
  *
  * @author laitao
- * @since 2015-03-04 23:33:00
+ * @date 2015-03-04 23:33:00
  */
 public class PasswordUtils {
 
