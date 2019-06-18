@@ -35,8 +35,7 @@ public class AppRuntimeException extends RuntimeException {
             }
             sb.append("nested exception is ").append(cause);
             return sb.toString();
-        }
-        else {
+        } else {
             return message;
         }
     }
