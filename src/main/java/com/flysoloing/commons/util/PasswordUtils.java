@@ -1,6 +1,6 @@
 package com.flysoloing.commons.util;
 
-import org.apache.commons.lang.RandomStringUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;

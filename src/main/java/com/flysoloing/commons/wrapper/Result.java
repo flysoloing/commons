@@ -1,4 +1,4 @@
-package com.flysoloing.commons.dto;
+package com.flysoloing.commons.wrapper;
 
 import java.io.Serializable;
 
@@ -6,20 +6,21 @@ import java.io.Serializable;
  * 返回结果抽象类
  *
  * @author laitao
- * @date 2015-03-18 14:48:00
+ * @date 2015-03-18 14:48:33
  */
-public abstract class AbstractResult implements Serializable{
+public abstract class Result implements Serializable {
 
-    private static final long serialVersionUID = -1287608281043535386L;
-
-    /**
-     * 结果编码
-     */
     private String code;
-    /**
-     * 结果信息
-     */
+
     private String message;
+
+    public Result() {
+    }
+
+    public Result(String code, String message) {
+        this.code = code;
+        this.message = message;
+    }
 
     public String getCode() {
         return code;
@@ -36,4 +37,5 @@ public abstract class AbstractResult implements Serializable{
     public void setMessage(String message) {
         this.message = message;
     }
+
 }

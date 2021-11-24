@@ -40,7 +40,7 @@ public class ValidationUtils {
                     sb.append("; ");
                 }
             }
-            throw new AppRuntimeException(sb.toString());
+            throw new AppRuntimeException("", sb.toString());
         }
     }
 

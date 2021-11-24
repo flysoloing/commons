@@ -1,18 +1,18 @@
-package com.flysoloing.commons.dto;
+package com.flysoloing.commons.wrapper;
 
 import com.flysoloing.commons.pagination.Pagination;
 
 import java.io.Serializable;
 
 /**
- * 带分页条件查询类
+ * 带分页的返回结果类
  *
  * @author laitao
- * @date 2015-03-18 15:59:00
+ * @date 2015-03-18 15:53:00
  */
-public class PaginationQuery<T> extends Query<T> {
+public class PaginationResult<T> extends ListResult<T> implements Serializable {
 
-    private static final long serialVersionUID = -1491545892015755135L;
+    private static final long serialVersionUID = -8701260818087056485L;
 
     private Pagination pagination;
 

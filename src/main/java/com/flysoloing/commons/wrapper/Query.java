@@ -1,4 +1,4 @@
-package com.flysoloing.commons.dto;
+package com.flysoloing.commons.wrapper;
 
 import java.io.Serializable;
 

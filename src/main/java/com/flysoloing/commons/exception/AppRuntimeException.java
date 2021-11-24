@@ -8,45 +8,35 @@ package com.flysoloing.commons.exception;
  */
 public class AppRuntimeException extends RuntimeException {
 
-    public AppRuntimeException() {
-        super();
-    }
-
-    public AppRuntimeException(String message) {
-        super(message);
-    }
-
-    public AppRuntimeException(String message, Throwable cause) {
-        super(message, cause);
-    }
+    private static final long serialVersionUID = -1540851313130932011L;
+    /**
+     * 用来反应业务异常的错误码，一般会结合配置文件
+     */
+    private String errorCode;
 
     /**
-     * 获取详细异常信息
-     * @return
+     * 用来反应业务异常信息的错误信息，一般会结合配置来说明<code>errorCode</code>
      */
-    @Override
-    public String getMessage() {
-        String message = super.getMessage();
-        Throwable cause = getCause();
-        if (cause != null) {
-            StringBuilder sb = new StringBuilder();
-            if (message != null) {
-                sb.append(message).append("; ");
-            }
-            sb.append("nested exception is ").append(cause);
-            return sb.toString();
-        } else {
-            return message;
-        }
+    private String errorMessage;
+
+    public AppRuntimeException(String errorCode, String errorMessage) {
+        this.errorMessage = errorMessage;
+        this.errorCode = errorCode;
     }
 
-    public Throwable getRootCause() {
-        Throwable rootCause = null;
-        Throwable cause = getCause();
-        while (cause != null && cause != rootCause) {
-            rootCause = cause;
-            cause = cause.getCause();
-        }
-        return rootCause;
+    public String getErrorCode() {
+        return errorCode;
+    }
+
+    public void setErrorCode(String errorCode) {
+        this.errorCode = errorCode;
+    }
+
+    public String getErrorMessage() {
+        return errorMessage;
+    }
+
+    public void setErrorMessage(String errorMessage) {
+        this.errorMessage = errorMessage;
     }
 }
